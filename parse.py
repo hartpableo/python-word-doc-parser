@@ -15,3 +15,7 @@ all_text = "\n".join(all_text)
 
 # Handle multiple choice questions
 handle_multiple_choice_questions(all_text, qblock_end_marker)
+
+# TODO: Handle definition
+# TODO: Handle essay
+# TODO: Handle true/false
