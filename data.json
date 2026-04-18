@@ -1,0 +1,54 @@
+{
+  "multiple_choice": [
+    {
+      "question": " A student refuses to cheat on an exam because CCTV cameras might record the act and lead to suspension.",
+      "choices": [
+        "Stage 1 \u2013 Obedience and Punishment",
+        "Stage 2 \u2013 Individualism and Exchange",
+        "Stage 3 \u2013 Good Interpersonal Relationships",
+        "Stage 4 \u2013 Maintaining Social Order"
+      ],
+      "answer": null
+    },
+    {
+      "question": "A student helps a classmate review for an exam but expects the classmate will help them during the next test.",
+      "choices": [
+        "Stage 2 \u2013 Individualism and Exchange",
+        "Stage 3 \u2013 Good Interpersonal Relationships",
+        "Stage 4 \u2013 Maintaining Social Order",
+        "Stage 1 \u2013 Obedience and Punishment"
+      ],
+      "answer": null
+    },
+    {
+      "question": "A government employee refuses to accept a bribe because doing so would violate the law.",
+      "choices": [
+        "Stage 2 \u2013 Individualism and Exchange",
+        "Stage 4 \u2013 Maintaining Social Order",
+        "Stage 3 \u2013 Good Interpersonal Relationships",
+        "Stage 1 \u2013 Obedience and Punishment"
+      ],
+      "answer": null
+    },
+    {
+      "question": "A journalist exposes government corruption even though it may cost their job.",
+      "choices": [
+        "Stage 3 \u2013 Good Interpersonal Relationships",
+        "Stage 5 \u2013 Social Contract",
+        "Stage 6 \u2013 Universal Ethical Principles",
+        "Stage 4 \u2013 Maintaining Social Order"
+      ],
+      "answer": null
+    },
+    {
+      "question": "A driver stops at a red light only when police officers are nearby.",
+      "choices": [
+        "Stage 4 \u2013 Maintaining Social Order",
+        "Stage 2 \u2013 Individualism and Exchange",
+        "Stage 3 \u2013 Good Interpersonal Relationships",
+        "Stage 1 \u2013 Obedience and Punishment"
+      ],
+      "answer": null
+    }
+  ]
+}
