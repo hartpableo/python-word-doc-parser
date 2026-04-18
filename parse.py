@@ -1,7 +1,16 @@
 from docx.api import Document
 from handle_multiple_choice import handle_multiple_choice_questions
+from handle_definition import handle_definition_questions
+import json
 
 doc = Document("sample.docx")
+
+final_data = {
+    "multiple_choice": [],
+    "definition": [],
+    "essay": [],
+    "true/false": []
+}
 
 # Merge all text as string
 qblock_end_marker = "<!--qblock--!>"
@@ -14,8 +23,16 @@ for para in doc.paragraphs:
 all_text = "\n".join(all_text)
 
 # Handle multiple choice questions
-handle_multiple_choice_questions(all_text, qblock_end_marker)
+final_data["multiple_choice"] = handle_multiple_choice_questions(all_text, qblock_end_marker)
 
-# TODO: Handle definition
+# Handle definition
+final_data["definition"] = handle_definition_questions(all_text, qblock_end_marker)
+
 # TODO: Handle essay
 # TODO: Handle true/false
+
+# Write to JSON
+with open("final-data.json", "w") as f:
+    json.dump(final_data, f, indent=4)
+
+print("Data written to JSON")

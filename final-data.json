@@ -50,5 +50,15 @@
             ],
             "answer": "Stage 1 \u2013 Obedience and Punishment"
         }
-    ]
+    ],
+    "definition": [
+        {
+            "question": "A journalist exposes government corruption even though it may cost their job."
+        },
+        {
+            "question": "Hello world! This is a sample question..."
+        }
+    ],
+    "essay": [],
+    "true/false": []
 }
