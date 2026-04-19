@@ -1,7 +1,9 @@
+import json
 from docx.api import Document
 from handle_multiple_choice import handle_multiple_choice_questions
 from handle_definition import handle_definition_questions
-import json
+from handle_essay import handle_essay_questions
+from handle_true_false import handle_true_false_questions
 
 doc = Document("sample.docx")
 
@@ -28,8 +30,11 @@ final_data["multiple_choice"] = handle_multiple_choice_questions(all_text, qbloc
 # Handle definition
 final_data["definition"] = handle_definition_questions(all_text, qblock_end_marker)
 
-# TODO: Handle essay
-# TODO: Handle true/false
+# Handle essay
+final_data["essay"] = handle_essay_questions(all_text, qblock_end_marker)
+
+# Handle true/false
+final_data["true/false"] = handle_true_false_questions(all_text, qblock_end_marker)
 
 # Write to JSON
 with open("final-data.json", "w") as f:

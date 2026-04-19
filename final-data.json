@@ -56,9 +56,26 @@
             "question": "A journalist exposes government corruption even though it may cost their job."
         },
         {
-            "question": "Hello world! This is a sample question..."
+            "question": "Hello world! This is a sample question\u2026"
         }
     ],
-    "essay": [],
-    "true/false": []
+    "essay": [
+        {
+            "question": "This is an essay. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        }
+    ],
+    "true/false": [
+        {
+            "question": "Asdsad"
+        },
+        {
+            "question": "sadddd"
+        },
+        {
+            "question": "zzzz123"
+        },
+        {
+            "question": "12313131231"
+        }
+    ]
 }
